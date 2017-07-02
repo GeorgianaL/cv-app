@@ -1,0 +1,11 @@
+node_modules/
+webpack/
+testutil/
+dev-start.js
+*.test.js
+.git
+.hg
+.svn
+.DS_Store
+._*
+Thumbs.db

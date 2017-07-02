@@ -1,0 +1,204 @@
+/*header*/
+body{
+  color: rgb(60, 72, 88);
+}
+
+.header-container{
+  width: 100%;
+  height: 80px;
+  background-color: #13349f;
+}
+
+.header-container > .logo-part{
+  float:left;
+  width: 60%;
+}
+
+.header-container > .logo-part > img {
+  height: 70px;
+  width: auto;
+  margin: 5px;
+  margin-left: 25%;
+}
+
+.header-container > .login-part{
+  float: right;
+  width: 40%;
+  height: inherit;
+}
+
+.login-btn-div{
+  margin-left: 20%;
+  position: absolute;
+}
+
+.login-btn-div > .btn{
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.login-btn:hover{
+  font-size: 18px;
+}
+
+/*mainview*/
+.main-view{
+  background-color: #FFFFFF;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+.footer-content{
+  width: 70%;
+  margin: auto;
+  /*border-top: solid 2px #13349f;*/
+}
+
+.btn-submit{
+  margin-top: 10px;
+  margin-left: 40%;
+  background-color: white;
+}
+
+/*nav-bar*/
+
+@media screen and (max-width: 800px){
+  .navbar{
+    width: 100%;
+  }
+}
+
+.navbar{
+  background-color: transparent;
+}
+
+.sections-list{
+  margin: 100px;
+}
+
+.sections-list-item{
+  width: 100%;
+  display: block;
+}
+
+.sections-list
+.sections-list-item{
+  font-size: 20px;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+.sections-list > .sections-list-item:hover{
+  width: 100%;
+  color: white;
+  background-color: #13349f;
+  text-decoration: none;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+
+.sections-list-item:link{
+  text-decoration: none;
+}
+
+.hvr-back-pulse{
+  transform: translateZ(0);
+  transition-duration: 0.5s;
+  transition-property: color, background-color;
+  margin: .1em;
+  padding: 0.5em;
+  cursor: pointer;
+  background: #FFFFFF;
+  text-decoration: none;
+  color: #666;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+/*form-section*/
+
+#my-profile-pic {
+  margin-left: 25%;
+  border-radius: 4px;
+}
+
+.my-input-type{
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #13349f;
+  transition: border 0.3s;
+  width: 50%;
+}
+
+.input-name:focus {
+  border-bottom: solid 2px #969696;
+}
+
+.my-select-type{
+  width: 50%;
+}
+
+.my-select-type,
+.my-input-type{
+  margin-left: 25%;
+}
+
+.my-select-type:hover,
+.my-input-type:hover{
+  border-bottom: solid 4px #13349f;
+}
+
+.btn-round{
+  float: right;
+}
+
+.btn-round > span {
+  color: rgb(60, 72, 88);
+}
+
+.right-fields > label{
+  margin-left: 25%;
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  color: black;
+}
+
+.right-fields > .lang-type{
+  font-weight: 200;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  margin-top: 10px;
+}
+
+/*submit*/
+.btn-submit{
+padding: 1.05rem 2.75rem;
+color: #1434a0;
+font-size: 1.2rem;
+font-weight: 300;
+text-transform: uppercase;
+border-radius: 3px;
+border: .2rem solid #1434a0;
+-webkit-transition: color .3s,border .3s;
+transition: color .3s,border .3s;
+}
+
+.btn-submit:hover{
+  font-weight: bold;
+}
+
+/*login page*/
+
+.card{
+  padding: 40px;
+}
+
+.my-past-experiences > ul {
+  margin-left: 20%;
+}
